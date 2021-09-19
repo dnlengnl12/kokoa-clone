@@ -20,29 +20,15 @@
 
 
 .nav__notification {
-    background-color: tomato;
-    width: 30px;
-    height: 30px;
-    display: flex;   
-    border-radius: 15px;
-    color: white;
-    font-weight: 600;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     left: 15px;
     bottom: 15px;
-
 }
 
 .nav__dot {
-    position: absolute;
-    display: block;
-    color: transparent;
-    background-color: tomato;
     width: 5px;
     height: 5px;
     border-radius: 2.5px;
     top: -7px;
-    left: 33px;
+    rigth: 33px;
 }
