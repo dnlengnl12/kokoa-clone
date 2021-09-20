@@ -55,3 +55,15 @@
     color: transparent;
     background-color: tomato;
 }
+
+.user-component__warn {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: solid 1.5px tomato;
+    border-radius: 8px;
+    color: tomato;
+    font-size: 15px;
+    font-weight: 600;
+}
