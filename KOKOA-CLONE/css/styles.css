@@ -7,11 +7,14 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -21,4 +24,9 @@ body {
 
 .main-screen {
     padding: 0px var(--horizontal-space);
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
